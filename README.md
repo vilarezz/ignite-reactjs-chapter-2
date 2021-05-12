@@ -1,46 +1,100 @@
-# Getting Started with Create React App
+# Primeira aplicação web com ReactJS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> Nesse módulo construiremos uma aplicação front-end web completa utilizando conceitos e ferramentas importantes do ecossistema React como Styled Components, MirageJS, Context API, hooks, Axios e muito mais.
 
-## Available Scripts
+DT MONEY
 
-In the project directory, you can run:
+![DT MONEY Screenshot by Gil Vilares](.github/preview.png)
 
-### `yarn start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Setup
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+---
 
-### `yarn test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `yarn build`
+## RESUME
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+All installs:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Step 1: Initialize the project
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+`yarn create react-app yourappname --template typescript`
 
-### `yarn eject`
+dependencies:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Step 2: Install all dependencies
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+yarn add axios miragejs polished react-modal web-vitals styled-components
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Now you can run your project with: `yarn start`
+And build your project with: `yarn build`
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+---
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Runing the project
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+`yarn` to install or `npm install`
+
+#### For development purposes, run: `yarn start`. This will run a command appended into the **package.json** scripts
+
+#### For production purposes, run: `yarn build`
+
+#### For testing, run: `yarn test`. This command run the tests made with jest
+
+---
+
+Made in Rocketseat Ignite ReactJs
+Done by Gil Vilares
+
+---
+
+> Conection center
+
+<a href="https://instagram.com/vilarezz" style="display: flex; justify-content: center;align-items: center; text-decoration: none; color: #e69d58;">
+ <img src="https://github.com/vilarezz/ignite-reactjs-chapter-1/blob/main/.github/ig.png" width="20px" /> 
+ <p>Instagram</p>
+</a>
+
+<a href="https://twitter.com/vilarezz" style="display: flex;  justify-content: center; align-items: center; text-decoration: none; color: #e69d58;">
+ <img src="https://github.com/vilarezz/ignite-reactjs-chapter-1/blob/main/.github/twitter.png" width="20px" /> 
+ <p>Twitter</p>
+</a>
+
+<a href="https://www.youtube.com/channel/UC-8MQslkT5DWN1JJOZEKdgg" style="display: flex;  justify-content: center; align-items: center; text-decoration: none; color: #e69d58;">
+ <img src="https://github.com/vilarezz/ignite-reactjs-chapter-1/blob/main/.github/yt.png" width="25px" /> 
+ <p>Youtube</p>
+</a>
+
+<a href="https://open.spotify.com/artist/15j2RkrJzpX2C3dKPogqbe" style="display: flex;  justify-content: center; align-items: center; text-decoration: none; color: #e69d58;">
+ <img src="https://github.com/vilarezz/ignite-reactjs-chapter-1/blob/main/.github/spotify.png" width="25px" /> 
+ <p>Spotify</p>
+</a>
+
+<a href="https://music.apple.com/us/artist/vilarezz/1552772851" style="display: flex;  justify-content: center; align-items: center; text-decoration: none; color: #e69d58;">
+ <img src="https://github.com/vilarezz/ignite-reactjs-chapter-1/blob/main/.github/apple-music.png" width="25px" /> 
+ <p>Apple Music</p>
+</a>
+
+<a href="https://soundcloud.com/vilarezz" style="display: flex;  justify-content: center; align-items: center; text-decoration: none; color: #e69d58;">
+ <img src="https://github.com/vilarezz/ignite-reactjs-chapter-1/blob/main/.github/soundcloud.svg" width="30px" /> 
+ <p>Soundcloud</p>
+</a>
+
+<a href="https://facebook.com/vilarezz0" style="display: flex;  justify-content: center; align-items: center; text-decoration: none; color: #e69d58;">
+ <img src="https://github.com/vilarezz/ignite-reactjs-chapter-1/blob/main/.github/fb.png" width="25px" /> 
+ <p>Facebook</p>
+</a>
+
+<br>
+<p style="display: flex;  justify-content: center; align-items: center; text-decoration: none; color: #e69d58;">
+℗ 2021 Vilarezz <br />
+© 2021 Vilarezz
+</p>
